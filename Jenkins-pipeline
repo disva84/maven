@@ -10,7 +10,7 @@ echo "Compiling the application ... "
         }
       }
     }
-    stage('build')<
+    stage('build'){
        steps{
          script{
          echo "building the application ... "
